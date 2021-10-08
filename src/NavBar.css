@@ -1,0 +1,18 @@
+.NavBar {
+  background-color: tomato;
+  text-align: center;
+  font-weight: bold;
+}
+
+.NavBar a {
+  padding: 0.5em;
+  width: 10em;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+.NavBar a.active {
+  font-weight: bold;
+  color: black;
+}
